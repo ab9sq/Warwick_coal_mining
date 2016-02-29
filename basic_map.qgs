@@ -3,13 +3,13 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="coal_mine_surface20160228101420745" name="coal_mine_surface">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="coal_mine_entries20160228101009670" name="coal_mine_entries">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="coal_mines_underground20160228101209851" name="coal_mines_underground">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="coal_mines_underground20160228101209851" name="coal_mines_underground">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="coal_mine_entries20160228101009670" name="coal_mine_entries">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="coal_mine_surface20160228101420745" name="coal_mine_surface">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="railroads_active20160228101952991" name="railroads_active">
@@ -18,10 +18,10 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="interstates_complete20160228100433966" name="interstates">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="roads20160228102623390" name="roads">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads20160228102623390" name="roads">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rivers_and_streams20160228095710980" name="rivers_and_streams">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rivers_and_streams20160228095710980" name="Rivers_and_Streams">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lakes20160228095312653" name="lakes">
@@ -30,52 +30,50 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="counties20160228094853982" name="counties">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="hillshape20160228210719573" name="hillshape">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="coal20160228210515982" name="coal">
+      <customproperties/>
+    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>468734.95594607433304191</xmin>
-      <ymin>4207948.27709984965622425</ymin>
-      <xmax>483767.73211794928647578</xmax>
-      <ymax>4219163.78647484816610813</ymax>
+      <xmin>-9798903.81684967316687107</xmin>
+      <ymin>4545420.34828414022922516</ymin>
+      <xmax>-9645269.95364799164235592</xmax>
+      <ymax>4660522.67834063433110714</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2293</srsid>
-        <srid>26916</srid>
-        <authid>EPSG:26916</authid>
-        <description>NAD83 / UTM zone 16N</description>
-        <projectionacronym>utm</projectionacronym>
-        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
         <geographicflag>false</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mine_entries20160228101009670"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Interstates_Ramps_INDOT20160228100123609"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="counties20160228094853982"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="interstates_complete20160228100433966"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="ramps20160228100155587"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="urban_areas_tiger00_in20160228100650074"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rail_System_INDOT_IN20160228101901468"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mines_underground20160228101209851"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="lakes20160228095312653"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="interstates20160228100030183"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hydrography_HighRes_WaterbodyDiscrete_NHD_USGS20160228095035649"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20160228102623390"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Coal_Mine_Surface_IN20160228101332097"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mine_entries_in20160228100835373"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Highways_INDOTMODEL_IN20160228095937680"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="railroads_active20160228101952991"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hydrography_HighRes_FlowLine_NHD_USGS20160228095511252"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Coal_Mine_Underground_IN20160228101117152"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mine_surface20160228101420745"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="rivers_and_streams20160228095710980"/>
-      <layer_coordinate_transform destAuthId="EPSG:26916" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="Roads_2005_INDOT_IN20160228102233690"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="counties20160228094853982"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mines_underground20160228101209851"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160228203958459"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mine_entries20160228101009670"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160228203909742"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal_mine_surface20160228101420745"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="coal20160228210515982"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshape20160228210719573"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20160228102623390"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="30n090w_20101117_gmted_mea07520160228210331354"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="interstates_complete20160228100433966"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160228204209135"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:26916" srcDatumTransform="-1" destDatumTransform="-1" layerid="rivers_and_streams20160228095710980"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -89,22 +87,24 @@
       <item>coal_mine_surface20160228101420745</item>
       <item>railroads_active20160228101952991</item>
       <item>roads20160228102623390</item>
+      <item>coal20160228210515982</item>
+      <item>hillshape20160228210719573</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="coal_mine_surface" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="coal_mine_entries" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="coal_mine_surface20160228101420745" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="coal_mine_entries20160228101009670" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="coal_mines_underground" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="coal_mines_underground" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="coal_mines_underground20160228101209851" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="coal_mines_underground20160228101209851" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="coal_mine_entries" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="coal_mine_surface" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="coal_mine_entries20160228101009670" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="coal_mine_surface20160228101420745" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="railroads_active" showFeatureCount="0">
@@ -117,12 +117,12 @@
         <legendlayerfile isInOverview="0" layerid="interstates_complete20160228100433966" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="roads" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="roads" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="roads20160228102623390" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="roads20160228102623390" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rivers_and_streams" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Rivers_and_Streams" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="rivers_and_streams20160228095710980" visible="0"/>
       </filegroup>
@@ -137,34 +137,243 @@
         <legendlayerfile isInOverview="0" layerid="counties20160228094853982" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="hillshape" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="hillshape20160228210719573" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="coal" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="coal20160228210515982" visible="0"/>
+      </filegroup>
+    </legendlayer>
   </legend>
-  <mapcanvas>
-    <units>degrees</units>
-    <extent>
-      <xmin>0</xmin>
-      <ymin>-4949.04270986745177652</ymin>
-      <xmax>3507</xmax>
-      <ymax>10.95729013254822348</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <projections>0</projections>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:2392" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raster20160228093457640"/>
-    </layer_coordinate_transform_info>
-  </mapcanvas>
-  <projectlayers layercount="9">
+  <Composer title="Master" visible="1">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="279.4" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="215.9" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Master Map for Coal Mine Exploration&#xa;Warrick and surrounding counties" htmlState="0" halign="4">
+        <LabelFont description="Arial Black,14,-1,5,87,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="42.6581" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="103.153" y="42.6581" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="122.695" outlineWidth="0.3" excludeFromExports="0" uuid="{759592b3-e3bc-4024-9d2b-222108af8d17}" height="22.3849" itemRotation="0" frame="false" pagex="103.153">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="13.5395" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="5" units="3" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="Miles">
+        <scaleBarFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+        <fillColor alpha="255" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <strokeColor alpha="255" red="0" blue="0" green="0"/>
+        <textColor alpha="255" red="0" blue="0" green="0"/>
+        <ComposerItem pagey="191.179" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="199.621" y="191.179" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.2082" outlineWidth="0.3" excludeFromExports="0" uuid="{3dd4effa-78a8-4f9b-a1c1-ef94edade198}" height="20" itemRotation="0" frame="false" pagex="199.621">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerScaleBar>
+      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" rasterBorderWidth="0" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" rasterBorder="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1" rasterBorderColor="0,0,0,255">
+        <styles>
+          <style marginBottom="2" name="title">
+            <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="group">
+            <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="subgroup">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="symbol">
+            <styleFont description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" marginLeft="2" name="symbolLabel">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+          <customproperties/>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="coal_mine_entries20160228101009670" name="coal_mine_entries">
+            <customproperties>
+              <property key="legend/node-order" value="0,1,2,3"/>
+              <property key="legend/title-label" value="Coal Mine Entries"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="coal_mines_underground20160228101209851" name="coal_mines_underground">
+            <customproperties>
+              <property key="legend/title-label" value="Underground Coal Mines"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="coal_mine_surface20160228101420745" name="coal_mine_surface">
+            <customproperties>
+              <property key="legend/title-label" value="Surface Coal Mines"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="railroads_active20160228101952991" name="railroads_active">
+            <customproperties>
+              <property key="legend/title-label" value="Railroads"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="interstates_complete20160228100433966" name="interstates">
+            <customproperties>
+              <property key="legend/title-label" value="Highways"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="counties20160228094853982" name="counties">
+            <customproperties>
+              <property key="legend/title-label" value="County Borders"/>
+            </customproperties>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <ComposerItem pagey="40.9246" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="10.9739" y="40.9246" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="58.3" outlineWidth="0.3" excludeFromExports="0" uuid="{721b3f34-6c69-4f6c-b769-a38a3616126e}" height="73.9" itemRotation="0" frame="false" pagex="10.9739">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLegend>
+      <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="4547128.82881026621907949" xmin="-9833428.33465534634888172" ymax="4675022.256216024979949" xmax="-9612207.27103457413613796"/>
+        <LayerSet/>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{2a373397-4b8c-4f1d-948f-25516c76ae65}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="3" annotationFontColor="0,0,0,255" intervalX="0.5" gridFrameSideFlags="15" intervalY="0.5" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="2" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="flat"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.3"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="43.1785" page="1" id="" lastValidViewScaleFactor="4.73533" positionMode="4" positionLock="false" x="22.1399" y="43.1785" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="256" outlineWidth="0.3" excludeFromExports="0" uuid="{30e49912-7f93-45ac-969f-fe25e45498cd}" height="148" itemRotation="0" frame="false" pagex="22.1399">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="183.025" file="" pictureHeight="184.148" mapId="-1" anchorPoint="0">
+        <ComposerItem pagey="19.8508" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="40.1239" y="19.8508" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="225.961" outlineWidth="0.3" excludeFromExports="0" uuid="{24ab291d-143b-4bda-ace0-4c71285e7824}" height="184.148" itemRotation="0" frame="false" pagex="40.1239">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerPicture>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+    </Composition>
+  </Composer>
+  <projectlayers layercount="11">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>coal20160228210515982</id>
+      <datasource>./working_shape/coal.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>coal</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="202" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="112" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="112" label="112.000000" color="#f7fcf5"/>
+              <item alpha="255" value="123.7" label="123.700000" color="#e5f5e0"/>
+              <item alpha="255" value="135.4" label="135.400000" color="#c9e9c2"/>
+              <item alpha="255" value="147.1" label="147.100000" color="#a5da9f"/>
+              <item alpha="255" value="158.8" label="158.800000" color="#7ac77b"/>
+              <item alpha="255" value="170.5" label="170.500000" color="#4aaf61"/>
+              <item alpha="255" value="182.2" label="182.200000" color="#29924a"/>
+              <item alpha="255" value="193" label="193.000000" color="#077331"/>
+              <item alpha="255" value="202" label="202.000000" color="#00441b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>coal_mine_entries20160228101009670</id>
       <datasource>./working_shape/coal_mine_entries.shp</datasource>
@@ -187,7 +396,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "TYPE", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -210,8 +419,122 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
+      <renderer-v2 attr="TYPE" forceraster="0" symbollevels="0" type="categorizedSymbol">
+        <categories>
+          <category render="true" symbol="0" value="Hoist" label="Hoist"/>
+          <category render="true" symbol="1" value="Other" label="Other"/>
+          <category render="true" symbol="2" value="Slope" label="Slope"/>
+          <category render="true" symbol="3" value="UNK" label="UNK"/>
+          <category render="false" symbol="4" value="" label=""/>
+        </categories>
         <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="62,30,238,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="triangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="3"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="236,170,84,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="triangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="3"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="112,202,198,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="triangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="3"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="125,221,96,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="triangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="3"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="212,112,176,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="rectangle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,0"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
@@ -233,7 +556,9 @@
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
-        </symbols>
+        </source-symbol>
+        <colorramp type="randomcolors" name="[source]"/>
+        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -414,13 +739,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -702,13 +1028,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1005,13 +1332,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1296,13 +1624,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1328,6 +1657,52 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>hillshape20160228210719573</id>
+      <datasource>./working_shape/hillshape.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hillshape</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="0.494118" alphaBand="0" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>163.696</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>interstates_complete20160228100433966</id>
@@ -1597,13 +1972,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1912,13 +2288,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2243,13 +2620,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2317,7 +2695,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>rivers_and_streams</layername>
+      <layername>Rivers_and_Streams</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -2424,10 +2802,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2474,7 +2852,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>roads20160228102623390</id>
-      <datasource>./working_shape/roads.shp</datasource>
+      <datasource>./working_shape/roads.shp|layerid=0</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2494,7 +2872,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "FENAME", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -2611,10 +2989,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2709,8 +3087,8 @@
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <Measure>
@@ -2734,14 +3112,14 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>counties20160228094853982</value>
-        <value>lakes20160228095312653</value>
-        <value>rivers_and_streams20160228095710980</value>
-        <value>interstates_complete20160228100433966</value>
         <value>coal_mine_entries20160228101009670</value>
-        <value>coal_mines_underground20160228101209851</value>
         <value>coal_mine_surface20160228101420745</value>
+        <value>coal_mines_underground20160228101209851</value>
+        <value>counties20160228094853982</value>
+        <value>interstates_complete20160228100433966</value>
+        <value>lakes20160228095312653</value>
         <value>railroads_active20160228101952991</value>
+        <value>rivers_and_streams20160228095710980</value>
         <value>roads20160228102623390</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
